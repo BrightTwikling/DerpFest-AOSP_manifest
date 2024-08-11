@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="BrightTwikling3"  fetch="https://github.com/BrightTwikling" />
+
+  <remove-project name="frameworks_base" />
+  <project path="frameworks/base" name="DerpFest_frameworks_base" remote="BrightTwikling3" revision="14_zf7" />
+
+</manifest>
