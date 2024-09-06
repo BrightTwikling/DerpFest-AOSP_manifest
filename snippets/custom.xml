@@ -2,8 +2,12 @@
 <manifest>
 
   <remote name="BrightTwikling3"  fetch="https://github.com/BrightTwikling" />
+  <remote name="BlissRoms" fetch="https://github.com/BlissRoms" />
 
   <remove-project name="frameworks_base" />
   <project path="frameworks/base" name="DerpFest_frameworks_base" remote="BrightTwikling3" revision="14_zf7" />
+
+  <remove-project name="device_qcom_sepolicy_vndr" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="platform_device_qcom_sepolicy_vndr" remote="BlissRoms" revision="universe-legacy-um" />
 
 </manifest>
